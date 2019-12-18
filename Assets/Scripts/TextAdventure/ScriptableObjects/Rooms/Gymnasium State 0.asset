@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: Gymnasium State 0
+  m_EditorClassIdentifier: 
+  description: "You are in the <b>gymnasium</b>.\n \nBats, spiders and a who\u2019s
+    who of movie monsters adorn the walls, but, a <b>basketball</b> under the bleachers
+    reminds you the space is usually used for sports rather than dancing.\n \nA few
+    ounces of bright red <b>punch</b> remain in a bowl on a table, beside a <b>snack</b>
+    that looks like a cross between a hot dog and a baby\u2019s finger\n \nThe song
+    Leaving on a Jet Plane is playing softly on a radio in the corner.\n \nThere is
+    a door to the <b>south</b>."
+  roomName: 
+  exits:
+  - keyString: south
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 8f7073de191334c1d9e78da9b1284802, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: f0f5927a40a394a938130df055b4376c, type: 2}
+  - {fileID: 11400000, guid: 032764df0ea784bf991e76f12466e63d, type: 2}
+  - {fileID: 11400000, guid: a2ba8c750a26e427cb87995cec71442b, type: 2}
+  - {fileID: 11400000, guid: e541da35455c04349a68a1c181281932, type: 2}

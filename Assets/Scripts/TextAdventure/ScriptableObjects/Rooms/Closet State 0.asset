@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: Closet State 0
+  m_EditorClassIdentifier: 
+  description: 'The dark void of the computer is replaced by the sightly less void-y
+    darkness of what appears to be a <b>closet</b>.
+
+    On the shelf beside you, there is a <b>computer</b> and a lockpick shaped <b>paperclip</b>.'
+  roomName: closet
+  exits: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: d678966d39deb4152bc04369dbf6320b, type: 2}
+  - {fileID: 11400000, guid: 962618cac8f524ba281762b7d6f368d0, type: 2}
+  - {fileID: 11400000, guid: 7a5a7adb1d9fb445e89b2e4da8509e93, type: 2}

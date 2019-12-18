@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: Cafeteria State 0
+  m_EditorClassIdentifier: 
+  description: "You are in the <b>cafeteria</b>.\n \nThe room is surprisingly tidy,
+    considering a hoard of adolescents were wolfing down their lunches a few hours
+    ago. The long tables are spotless but a <b>book</b> sits forgotten on one of them.
+    A large <b>jar</b> is the only thing left on the food cart.\n \nThe burning smell
+    of old farts makes you think it might be Chuesday.\n \nThere is a door to the
+    <b>south</b>."
+  roomName: cafeteria
+  exits:
+  - keyString: south
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 21c5d4179a8d242798084e957dd1df1d, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1c1bc340a6a254671bc1ef294a9836b2, type: 2}
+  - {fileID: 11400000, guid: 5e54a0d8dcafe41b18a781e89c3efe30, type: 2}
+  - {fileID: 11400000, guid: e0ec9311fa00c4093afee18c0f1e7155, type: 2}

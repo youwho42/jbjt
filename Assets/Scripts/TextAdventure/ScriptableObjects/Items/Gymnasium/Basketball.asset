@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
+  m_Name: Basketball
+  m_EditorClassIdentifier: 
+  noun: basketball
+  inventoryItem: {fileID: 0}
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
+    textResponse: "It\u2019s a Spalding <b>basketball</b>. Funny, my dentist\u2019s
+      name is Wilson."
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
+    textResponse: You picked up the <b>basketball</b>.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 35266d7b4930d4a11838b5d53a110794, type: 2}
+    textResponse: You smash the <b>basketball</b> through the window on the door to
+      the principal's <b>office</b>, enabling you to reach in and unlock the door.
+      The door to the <b>east</b> is now unlocked.
+    actionResponse: {fileID: 11400000, guid: 05a682c8c9da647c0ba3f57eea58efb1, type: 2}

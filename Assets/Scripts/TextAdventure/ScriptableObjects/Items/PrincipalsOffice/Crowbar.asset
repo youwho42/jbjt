@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  noun: crowbar
+  inventoryItem: {fileID: 0}
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
+    textResponse: ' A heavy piece of steel. The kind one might use to pry open a padlock
+      for example.'
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
+    textResponse: You pick up the <b>crowbar</b>.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 35266d7b4930d4a11838b5d53a110794, type: 2}
+    textResponse: You pry open the padlock blocking your way to freedom.
+    actionResponse: {fileID: 11400000, guid: 8cd24761816da402daf35841a3086e8d, type: 2}

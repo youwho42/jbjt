@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: East Hallway State 2
+  m_EditorClassIdentifier: 
+  description: "You are in the east <b>hallway</b>.\n \nArchitecturally, it's a mirror
+    image of the west hallway, although the decor is quite different.\nThe <b>north</b>
+    wall is plastered with cafeteria <b>menus</b> for the various days of the week.
+    The opposite wall is a smorgasbord of motivational <b>quotes</b> from various
+    works of literature.\n \nThere are doors to the <b>north</b>, <b>south</b> and
+    <b>west</b> and <b>east</b>."
+  roomName: east hallway
+  exits:
+  - keyString: west
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: d64b00a3895464614b39020826012db7, type: 2}
+  - keyString: north
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 0791f5bb0f0804af7b812f26ae70b906, type: 2}
+  - keyString: south
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 21acae268fadd4dfc94a948c919fa5af, type: 2}
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: babeb510c7b8e4513a41b31a692431da, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 6cc6d64cdac614d2eb5a018aea318fbe, type: 2}
+  - {fileID: 11400000, guid: 5b7700e3f97844b96b13fff5fe243478, type: 2}
+  - {fileID: 11400000, guid: 7b82cd524ea4f407eaa3bc9c08a9e3ba, type: 2}

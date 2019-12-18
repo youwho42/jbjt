@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: EntranceHall State 1
+  m_EditorClassIdentifier: 
+  description: "You are in John Denver Memorial High School\u2019s entrance <b>hall</b>.\n
+    \nThe walls are lined with LOCKERS and POSTERS reminding the students to get tickets
+    for the Halloween Monster Bash before it\u2019s too late. A giant PUMPKIN is sitting
+    in the corner, below some fake COBWEBS.\n \nA coyote can be heard howling outside,
+    somewhere behind the padlocked exit\n \nThere are DOORS to the EAST, WEST and
+    NORTH.\n \nThe EXIT is to the SOUTH"
+  roomName: entrance hall
+  exits:
+  - keyString: west
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 03e2a4f6e8c2f4b67b25d249d3ee9187, type: 2}
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 21c5d4179a8d242798084e957dd1df1d, type: 2}
+  - keyString: north
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: a487b8a8db9cd4d3c9fca0f48828e21a, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: dade2b62d159e413384da095d3e2ad01, type: 2}
+  - {fileID: 11400000, guid: 9ad2c67bb271a49fcae5246b1976ecd1, type: 2}
+  - {fileID: 11400000, guid: 4d366471ca38740b2920f44f7a6a6514, type: 2}
+  - {fileID: 11400000, guid: 9f097f4430c9946a8b1954f929d25d7f, type: 2}
+  - {fileID: 11400000, guid: a91b47a57be884526b85a7b67f1b37f6, type: 2}
+  - {fileID: 11400000, guid: 79f166fdae9e5416c8646c4b3ae70939, type: 2}

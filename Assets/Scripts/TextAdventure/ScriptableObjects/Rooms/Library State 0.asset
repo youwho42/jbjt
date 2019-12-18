@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: Library State 0
+  m_EditorClassIdentifier: 
+  description: "You are in the <b>library</b>.\n \nThe place is quite, either because
+    it\u2019s a library or the middle of the night.\n \nA <b>book</b> lies open on
+    the Librarian\u2019s desk, beside a <b>ticket</b> for the Halloween Monster Bash.
+    A <b>sign</b> hangs on the wall with seasonal reading suggestions.\n \nThere is
+    a door to the <b>north</b>."
+  roomName: library
+  exits:
+  - keyString: north
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 0115b3480c5fd4a549e8dca8e9bc09ae, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: c05049bb738f24f5e992019ac467a380, type: 2}
+  - {fileID: 11400000, guid: beb3e7e9d1e844a83a6449de4a4e3119, type: 2}
+  - {fileID: 11400000, guid: ee714566e496441e5a45cac7de2247e3, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: West Hallway State 0
+  m_EditorClassIdentifier: 
+  description: "You are in the west <b>hallway</b>.\n \nCharts from a class project
+    about the Y2K bug adorn the walls. The faint smell of teenage sweat and peanut-butter
+    and jelly sandwiches lingers in the air.\n \nThere are doors to the <b>north</b>,
+    <b>south</b> and <b>west</b> and a janitor's <b>closet</b> to the <b>east</b>."
+  roomName: west hallway
+  exits:
+  - keyString: south
+    exitDescription: To the <b>south</b> is the computer science room.
+    valueRoom: {fileID: 11400000, guid: a6ba9229648fe4621b73cbf36396d265, type: 2}
+  - keyString: north
+    exitDescription: To the <b>north</b> is what seems like a normal high school classroom.
+    valueRoom: {fileID: 11400000, guid: 84b2a786284ba474bae2b69a36df1abe, type: 2}
+  interactableObjectsInRoom: []

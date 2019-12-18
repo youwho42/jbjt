@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
+  m_Name: Blackboard
+  m_EditorClassIdentifier: 
+  noun: blackboard
+  inventoryItem: {fileID: 0}
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
+    textResponse: "A few lines from Macbeth are written in chalk:\n\u200B\u200B\u200B\u200B\n\u200B\u200B\u200B\u200BOut,
+      out, brief candle!\n\u200B\u200B\u200B\u200BLife's but a walking shadow, a poor
+      player\n\u200B\u200B\u200B\u200BThat struts and frets his hour upon the stage\n\u200B\u200B\u200B\u200BAnd
+      then is heard no more: it is a tale\n\u200B\u200B\u200B\u200BTold by an idiot,
+      full of sound and fury,\n\u200B\u200B\u200B\u200BSignifying nothing.\n\u200B\u200B\n\u200B\u200BWhatever
+      the hell that signifies. No help here in any case."
+    actionResponse: {fileID: 0}

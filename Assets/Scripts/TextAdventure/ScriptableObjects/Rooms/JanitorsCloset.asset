@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
+  m_Name: JanitorsCloset
+  m_EditorClassIdentifier: 
+  description: "It\u2019s a closet, not unlike the one where you started your journey.
+    This one however smells strongly of ammonia and bleach.\n \nOn the floor, there
+    is a <b>bucket</b> and a <b>mop</b>. Something appears to be shining beneath the
+    surface of the dirty gray water.\n \nThere is a <b>door</b> to the <b>east</b>."
+  roomName: closet
+  exits:
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 1741686d6b6a340d79bd9972ad4b37e0, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 4887800539fac40638b9ae3d928593b0, type: 2}
+  - {fileID: 11400000, guid: 957268b16cc6d40aabcd6b50e5a0755e, type: 2}
+  - {fileID: 11400000, guid: 027255857af2f461e86f5703e83006b2, type: 2}

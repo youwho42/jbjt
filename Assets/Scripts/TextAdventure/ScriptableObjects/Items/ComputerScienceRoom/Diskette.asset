@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
+  m_Name: Diskette
+  m_EditorClassIdentifier: 
+  noun: diskette
+  inventoryItem: {fileID: 3511895229609228977, guid: 78e0d6e8fa65640cf96789650e8b59a1,
+    type: 3}
+  description: A <b>diskette</b> sits on the teacher's <b>desk</b> beside an old <b>laptop</b>.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
+    textResponse: You picked up the <b>diskette</b>.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
+    textResponse: It's a 3 and a half inch floppy disk. The label says Countofmontechristo.txt.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 35266d7b4930d4a11838b5d53a110794, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: 94c65313371f742fabd3bbe5557dcc02, type: 2}
