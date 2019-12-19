@@ -48,8 +48,10 @@ public class InteractableItems : MonoBehaviour
             {
                 Interaction interaction = interactableObjectInInventory.interactions[j];
 
-                if (interaction.actionResponse == null)
+                if (interaction.actionResponse == null) { 
+                    controller.DisplayInventoryText();
                     continue;
+                }
 
                 if (!useDictionary.ContainsKey(noun))
                 {

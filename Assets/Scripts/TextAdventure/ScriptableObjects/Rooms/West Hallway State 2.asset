@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
   m_Name: West Hallway State 2
   m_EditorClassIdentifier: 
-  description: The janitor's <b>closet</b> is unlocked. Worked better than a paperclip,
-    didn't it?
+  description: Wow, you managed to open all the doors around here. I hope there aren't
+    any more...
   roomName: west hallway
   exits:
   - keyString: south
-    exitDescription: To the <b>south</b> is the computer science room.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: a6ba9229648fe4621b73cbf36396d265, type: 2}
   - keyString: north
-    exitDescription: To the <b>north</b> is what seems like a normal high school classroom.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: 84b2a786284ba474bae2b69a36df1abe, type: 2}
   - keyString: west
-    exitDescription: There is a janitors closet to the <b>west</b>.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: faefdd2dad97c467d9281212813a85cb, type: 2}
   - keyString: east
-    exitDescription: The door to the <b>east</b> seems to lead to the Entrance Hall.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: d64b00a3895464614b39020826012db7, type: 2}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: b760b808fd36342fbb65c5a05594890b, type: 2}
+  - {fileID: 11400000, guid: e1c7ed3b468ac4a10935b1ddee2369f8, type: 2}

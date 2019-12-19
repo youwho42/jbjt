@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: room
   inventoryItem: {fileID: 0}
-  description: "Half a dozen sleek and shiny computers sit upon two rows of <b>desks</b>.
-    This is either a Commodore 64\x19s wet dream or the computer science <b>room</b>."
+  description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
     textResponse: "You are in the computer science <b>room</b>.\n \nA <b>DISKETTE</b>

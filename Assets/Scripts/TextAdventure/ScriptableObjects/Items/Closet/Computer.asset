@@ -17,6 +17,6 @@ MonoBehaviour:
   description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
-    textResponse: "It\x19s the dusty old <b>computer</b> that used to be your home
-      slash prison. No looking back now."
+    textResponse: It's the dusty old <b>computer</b> that used to be your home slash
+      prison. No looking back now.
     actionResponse: {fileID: 0}

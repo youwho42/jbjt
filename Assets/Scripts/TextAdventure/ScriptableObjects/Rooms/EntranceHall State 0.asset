@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: EntranceHall State 0
   m_EditorClassIdentifier: 
   description: "You are in John Denver Memorial High School\u2019s entrance <b>hall</b>.\n
-    \nThe walls are lined with LOCKERS and POSTERS reminding the students to get tickets
-    for the Halloween Monster Bash before it\u2019s too late. A giant PUMPKIN is sitting
-    in the corner, below some fake COBWEBS.\n \nA coyote can be heard howling outside,
-    somewhere behind the padlocked exit\n \nThere are DOORS to the EAST, WEST and
-    NORTH.\n \nThe EXIT is to the SOUTH"
+    \nThe walls are lined with <b>lockers</b> and <b>posters</b> reminding the students
+    to get tickets for the Halloween Monster Bash before it\u2019s too late. A giant
+    <b>pumpkin</b> is sitting in the corner, below some fake <b>cobwebs</b>.\n \nA
+    coyote can be heard howling outside, somewhere behind the padlocked exit\n \nThere
+    are doors to the <b>east</b>, <b>west</b> and <b>north</b>.\n \nThe exit is to
+    the <b>south</b>."
   roomName: entrance hall
   exits:
   - keyString: west

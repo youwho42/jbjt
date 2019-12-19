@@ -15,7 +15,7 @@ MonoBehaviour:
   noun: diskette
   inventoryItem: {fileID: 3511895229609228977, guid: 78e0d6e8fa65640cf96789650e8b59a1,
     type: 3}
-  description: A <b>diskette</b> sits on the teacher's <b>desk</b> beside an old <b>laptop</b>.
+  description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
     textResponse: You picked up the <b>diskette</b>.

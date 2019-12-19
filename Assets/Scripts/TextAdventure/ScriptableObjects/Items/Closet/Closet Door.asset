@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: door
   inventoryItem: {fileID: 0}
-  description: There is a <b>door</b> to the <b>east</b>.
+  description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
     textResponse: Unsurprisingly, it's locked.

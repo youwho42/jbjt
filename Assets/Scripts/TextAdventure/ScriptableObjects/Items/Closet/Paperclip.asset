@@ -15,8 +15,7 @@ MonoBehaviour:
   noun: paperclip
   inventoryItem: {fileID: 3511895229609228977, guid: 1e7714394a9df4dc89a403100e6792b2,
     type: 3}
-  description: The lockpick shape would probably make this <b>paperclip</b> ideal
-    for picking locks.
+  description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
     textResponse: You picked up the lockpick shaped <b>paperclip</b>.
@@ -26,5 +25,6 @@ MonoBehaviour:
       for picking locks.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 35266d7b4930d4a11838b5d53a110794, type: 2}
-    textResponse: 
+    textResponse: Wow, it worked! The <b>door</b> to the <b>east</b> in now open&
+      Too bad you broke the <b>paperclip</b>.
     actionResponse: {fileID: 11400000, guid: 218918068b94d43e6be97e0ac5a6242c, type: 2}

@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
-  m_Name: Laptop
+  m_Name: JanitorCloset Open
   m_EditorClassIdentifier: 
-  noun: laptop
+  noun: closet
   inventoryItem: {fileID: 0}
   description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
-    textResponse: "Seeing as it\u2019s 1999, the laptop weighs about 12 pounds. You
-      probably can\u2019t even lift it."
+    textResponse: This door is unlocked. Maybe you left something behind?
     actionResponse: {fileID: 0}

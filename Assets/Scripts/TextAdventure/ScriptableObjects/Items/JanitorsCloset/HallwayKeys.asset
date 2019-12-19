@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HallwayKeys
   m_EditorClassIdentifier: 
   noun: keys
-  inventoryItem: {fileID: 3511895229609228977, guid: 8e85f5863fb1e49988ee2d244e917d37,
+  inventoryItem: {fileID: 3511895229609228977, guid: e69617d4edeee41548555d9a9c50e786,
     type: 3}
   description: 
   interactions:

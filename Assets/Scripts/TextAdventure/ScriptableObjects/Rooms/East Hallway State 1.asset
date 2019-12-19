@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
   m_Name: East Hallway State 1
   m_EditorClassIdentifier: 
-  description: "You are in the east <b>hallway</b>.\n \nArchitecturally, it's a mirror
-    image of the west hallway, although the decor is quite different.\nThe <b>north</b>
-    wall is plastered with cafeteria <b>menus</b> for the various days of the week.
-    The opposite wall is a smorgasbord of motivational <b>quotes</b> from various
-    works of literature.\n \nThere are doors to the <b>north</b>, <b>south</b> and
-    <b>west</b> and <b>east</b>."
+  description: For some strange reason you decide to read the first page of Stephen
+    King's Duma Key out loud. Somehow, the Master of Horror's words seem to have some
+    kind of effect on the <b>library</b>, because the door to the <b>south</b> is
+    now unlocked.
   roomName: east hallway
   exits:
   - keyString: west

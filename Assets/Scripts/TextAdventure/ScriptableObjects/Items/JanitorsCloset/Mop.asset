@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mop
   m_EditorClassIdentifier: 
   noun: mop
-  inventoryItem: {fileID: 3511895229609228977, guid: 8e85f5863fb1e49988ee2d244e917d37,
+  inventoryItem: {fileID: 3511895229609228977, guid: 8d62cca14000043e7b56ec86c45cfbcc,
     type: 3}
   description: 
   interactions:
@@ -21,5 +21,8 @@ MonoBehaviour:
     textResponse: You picked up a <b>mop</b>.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
+    textResponse: It's a soggy <b>mop</b>.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 35266d7b4930d4a11838b5d53a110794, type: 2}
     textResponse: It's a soggy <b>mop</b>.
     actionResponse: {fileID: 0}

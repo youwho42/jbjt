@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f00a98a1005ed41c39927603f165ce9c, type: 3}
-  m_Name: Chili
+  m_Name: CanOfChili
   m_EditorClassIdentifier: 
-  noun: chili
+  noun: can
   inventoryItem: {fileID: 0}
   description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
-    textResponse: The label says Hath green <b>chili</b>. Looks spicy.
+    textResponse: The label says Hatch green chili. Looks spicy.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
-    textResponse: You pick up the green <b>chili</b>.
+    textResponse: You pick up the can of green chili.
     actionResponse: {fileID: 0}

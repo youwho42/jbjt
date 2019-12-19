@@ -12,12 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
   m_Name: EntranceHall State 1
   m_EditorClassIdentifier: 
-  description: "You are in John Denver Memorial High School\u2019s entrance <b>hall</b>.\n
-    \nThe walls are lined with LOCKERS and POSTERS reminding the students to get tickets
-    for the Halloween Monster Bash before it\u2019s too late. A giant PUMPKIN is sitting
-    in the corner, below some fake COBWEBS.\n \nA coyote can be heard howling outside,
-    somewhere behind the padlocked exit\n \nThere are DOORS to the EAST, WEST and
-    NORTH.\n \nThe EXIT is to the SOUTH"
+  description: Despite there being absolutely no one to present your <b>ticket</b>
+    to, you are still granted entry to the Halloween Monster Bash. The door to the
+    <b>north</b> is now unlocked.
   roomName: entrance hall
   exits:
   - keyString: west

@@ -17,8 +17,7 @@ MonoBehaviour:
   description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
-    textResponse: "150 DIY Sexy Librarian Costumes, by Martha Stewart and Beyonce.
-      You can\x19t take a book from the library though, that would be stealing..."
+    textResponse: "Valid for one person\u2026 dead or alive."
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 75161a6b3ed6a4830a3b659a5a2a0bd5, type: 2}
     textResponse: You picked up the <b>ticket</b>.

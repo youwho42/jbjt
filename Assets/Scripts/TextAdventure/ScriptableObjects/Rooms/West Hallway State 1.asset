@@ -17,12 +17,14 @@ MonoBehaviour:
   roomName: west hallway
   exits:
   - keyString: south
-    exitDescription: To the <b>south</b> is the computer science room.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: a6ba9229648fe4621b73cbf36396d265, type: 2}
   - keyString: north
-    exitDescription: To the <b>north</b> is what seems like a normal high school classroom.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: 84b2a786284ba474bae2b69a36df1abe, type: 2}
   - keyString: west
-    exitDescription: There is a janitors closet to the <b>west</b>.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: faefdd2dad97c467d9281212813a85cb, type: 2}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: b760b808fd36342fbb65c5a05594890b, type: 2}
+  - {fileID: 11400000, guid: e1c7ed3b468ac4a10935b1ddee2369f8, type: 2}

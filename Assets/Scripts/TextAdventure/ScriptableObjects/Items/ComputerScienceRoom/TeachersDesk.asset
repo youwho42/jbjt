@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: desk
   inventoryItem: {fileID: 0}
-  description: There is a lone <b>desk</b> at the front of the class, no apple.
+  description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
     textResponse: It looks just like the rest of the <b>desks</b>, minus the graffiti.

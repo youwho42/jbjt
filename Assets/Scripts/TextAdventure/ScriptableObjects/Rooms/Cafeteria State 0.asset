@@ -15,7 +15,7 @@ MonoBehaviour:
   description: "You are in the <b>cafeteria</b>.\n \nThe room is surprisingly tidy,
     considering a hoard of adolescents were wolfing down their lunches a few hours
     ago. The long tables are spotless but a <b>book</b> sits forgotten on one of them.
-    A large <b>jar</b> is the only thing left on the food cart.\n \nThe burning smell
+    A small <b>can</b> is the only thing left on the food cart.\n \nThe burning smell
     of old farts makes you think it might be Chuesday.\n \nThere is a door to the
     <b>south</b>."
   roomName: cafeteria

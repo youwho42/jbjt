@@ -17,6 +17,6 @@ MonoBehaviour:
   description: 
   interactions:
   - inputAction: {fileID: 11400000, guid: 4f68c2da5a42648d18eb940a01f292a8, type: 2}
-    textResponse: "150 DIY Sexy Librarian Costumes, by Martha Stewart and Beyonce.
-      You can\x19t take a book from the library though, that would be stealing..."
+    textResponse: 150 DIY Sexy Librarian Costumes, by Martha Stewart and Beyonce.
+      You can't take a book from the library though, that would be stealing...
     actionResponse: {fileID: 0}
