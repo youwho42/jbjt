@@ -12,14 +12,16 @@ public class PlayerMovement : MonoBehaviour
     public float airSpeedMultiplier;
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2.0f;
-    Rigidbody2D body;
+    [HideInInspector]
+    public Rigidbody2D body;
     PlayerInput input;
-    public GameObject boxRef;
     public LayerMask groundLayer;
     public Vector2 groundCheckSize;
     public SpriteRenderer sprite;
+    [HideInInspector]
     public bool facingLeft;
-    bool dashing;
+    [HideInInspector]
+    public bool dashing;
 
     private void Start()
     {
@@ -91,14 +93,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Check if the player is on the ground
-    bool IsGrounded()
+    public bool IsGrounded()
     {
         RaycastHit2D hit;
         Vector2 boxSize = groundCheckSize;
         hit = Physics2D.BoxCast(transform.position - new Vector3(0, sprite.bounds.extents.y + boxSize.y + 0.01f, 0), boxSize, 0, Vector2.down, boxSize.y, groundLayer);
-
-        boxRef.transform.position = transform.position - new Vector3(0, sprite.bounds.extents.y + boxSize.y + 0.01f, 0);
-        boxRef.transform.localScale = boxSize;
 
         if (hit)
         {
