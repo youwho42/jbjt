@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -310,10 +310,10 @@ RectTransform:
   m_Father: {fileID: 2096244852}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.0016285701, y: -22.940002}
-  m_SizeDelta: {x: 1442.9, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.0015869141, y: -23}
+  m_SizeDelta: {x: -47.099976, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &100060084
 MonoBehaviour:
@@ -998,10 +998,10 @@ RectTransform:
   m_Father: {fileID: 1244331519}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.88529634}
-  m_AnchorMax: {x: 0.8166875, y: 1}
-  m_AnchoredPosition: {x: 21.71997, y: -2.800171}
-  m_SizeDelta: {x: -58.5, y: -35.799988}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 805.72, y: -64.80017}
+  m_SizeDelta: {x: 1509.5, y: 88.20001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296591860
 MonoBehaviour:
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1779518927}
   m_HandleRect: {fileID: 1779518926}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1999,10 +1999,10 @@ RectTransform:
   m_Father: {fileID: 296591859}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024319, y: -0.000024319}
-  m_SizeDelta: {x: 1469.8, y: 53.7}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 755, y: -44.000023}
+  m_SizeDelta: {x: 1469.8, y: 53.699997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554755342
 MonoBehaviour:
@@ -2846,10 +2846,10 @@ RectTransform:
   m_Father: {fileID: 2032376769}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.01001, y: -0.000012159}
-  m_SizeDelta: {x: 1489.5, y: 810}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -10.01001, y: 0}
+  m_SizeDelta: {x: -20.5, y: -46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2032704914620784687
 PrefabInstance:

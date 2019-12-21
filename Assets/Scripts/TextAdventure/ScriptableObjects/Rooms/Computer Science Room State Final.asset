@@ -10,22 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
-  m_Name: Computer Science Room State 0
+  m_Name: Computer Science Room State Final
   m_EditorClassIdentifier: 
-  description: "Half a dozen sleek and shiny computers sit upon two rows of <b>desks</b>.
-    This is either a Commodore 64\u2019s wet dream or the computer science <b>room</b>.\n
-    \nA <b>diskette</b> sits on the teacher's <b>desk</b> beside an old <b>laptop</b>.\n
-    \nThere is a door to the <b>north</b> and a <b>closet</b> to the <b>east</b>."
+  description: Like a jewel thief in a heist movie, you slide the <b>diskette</b>
+    between the <b>door</b> and the frame. Like magic, the <b>door</b> unlocks. To
+    be honest, I thought you would put it in the laptop.
   roomName: computer science room
   exits:
   - keyString: west
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: 68def1db6aac143288a0ab7a86b63485, type: 2}
+  - keyString: north
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: ac8f775b2c3694485a1aa4874c018454, type: 2}
   interactableObjectsInRoom:
+  - {fileID: 11400000, guid: ac79db24a255e4359bad0ae1c7168f50, type: 2}
+  - {fileID: 11400000, guid: 9ede49bb7e1e6486692864a42ec1f69a, type: 2}
   - {fileID: 11400000, guid: 48ecf5e4803534597a00d7478cc86926, type: 2}
-  - {fileID: 11400000, guid: c0181467dc91e44578aed3fb3fc2e818, type: 2}
+  - {fileID: 11400000, guid: b376452b15d654507b91108b2f9ec005, type: 2}
   - {fileID: 11400000, guid: 9e5dc3704de1c49278cb61379a2d2933, type: 2}
   - {fileID: 11400000, guid: ba1bae652a6ee4098a887fc0cee7665d, type: 2}
-  - {fileID: 11400000, guid: b376452b15d654507b91108b2f9ec005, type: 2}
-  - {fileID: 11400000, guid: ac79db24a255e4359bad0ae1c7168f50, type: 2}
-  - {fileID: 11400000, guid: b4173a71c74664b45b8f24617e566f27, type: 2}
+  - {fileID: 11400000, guid: c0181467dc91e44578aed3fb3fc2e818, type: 2}

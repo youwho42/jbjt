@@ -20,7 +20,7 @@ MonoBehaviour:
     valueRoom: {fileID: 11400000, guid: 03e2a4f6e8c2f4b67b25d249d3ee9187, type: 2}
   - keyString: east
     exitDescription: 
-    valueRoom: {fileID: 11400000, guid: 21c5d4179a8d242798084e957dd1df1d, type: 2}
+    valueRoom: {fileID: 11400000, guid: da1b9399c0a1b4d679e479a89ace6482, type: 2}
   - keyString: north
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: a487b8a8db9cd4d3c9fca0f48828e21a, type: 2}

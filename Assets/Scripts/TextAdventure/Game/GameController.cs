@@ -149,6 +149,6 @@ public class GameController : MonoBehaviour
     {
        
         yield return new WaitForSeconds(5f);
-        LevelManager.instance.ChangeLevel("Level 2");
+        LevelManager.instance.ChangeLevel("Level 3");
     }
 }

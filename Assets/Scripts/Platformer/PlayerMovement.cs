@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-
+       
         // Jump logic
         if (input.jump && IsGrounded())
         {

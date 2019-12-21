@@ -18,14 +18,14 @@ MonoBehaviour:
   roomName: computer science room
   exits:
   - keyString: west
-    exitDescription: There is a door to the <b>west</b>.
-    valueRoom: {fileID: 11400000, guid: f5de0d58a493a4467b00485e24ac40a3, type: 2}
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 68def1db6aac143288a0ab7a86b63485, type: 2}
   - keyString: north
-    exitDescription: The door to the <b>north</b> is now open.
+    exitDescription: 
     valueRoom: {fileID: 11400000, guid: ac8f775b2c3694485a1aa4874c018454, type: 2}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: ac79db24a255e4359bad0ae1c7168f50, type: 2}
-  - {fileID: 11400000, guid: b4173a71c74664b45b8f24617e566f27, type: 2}
+  - {fileID: 11400000, guid: 9ede49bb7e1e6486692864a42ec1f69a, type: 2}
   - {fileID: 11400000, guid: 48ecf5e4803534597a00d7478cc86926, type: 2}
   - {fileID: 11400000, guid: b376452b15d654507b91108b2f9ec005, type: 2}
   - {fileID: 11400000, guid: 9e5dc3704de1c49278cb61379a2d2933, type: 2}
