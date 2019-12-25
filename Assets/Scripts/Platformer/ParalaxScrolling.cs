@@ -25,11 +25,11 @@ public class ParalaxScrolling : MonoBehaviour
 
         if (temp > startpos + length)
         {
-            startpos += length;
+            startpos += length * 2;
         }
         else if (temp < startpos - length)
         {
-            startpos -= length;
+            startpos -= length * 2;
         }
     }
 }
