@@ -15,12 +15,14 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
     public TextMeshProUGUI skullerText;
     public TextMeshProUGUI muldeyText;
 
+    bool cutSceneHasPlayed;
+
 
     private void Start()
     {
-        player.enabled = false;
-
-        StartCoroutine(DialogueOne());
+        
+        director.Pause();
+        cutSceneHasPlayed = false;
     }
 
     IEnumerator DialogueOne()
@@ -43,6 +45,7 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
         yield return new WaitForSeconds(3f);
         skullerText.text = "";
         muldeyText.text = "";
+        cutSceneHasPlayed = true;
     }
 
     private void Update()
@@ -52,5 +55,22 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
          
             player.enabled = true;
         }
+        else
+        {
+            player.enabled = false;
+        }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && !cutSceneHasPlayed)
+        {
+            if (Input.GetButton("Fire1"))
+            {
+                StartCoroutine(DialogueOne());
+                director.Play();
+            }
+        }
+    }
+
 }

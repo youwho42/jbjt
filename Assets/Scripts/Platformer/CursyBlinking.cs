@@ -1,34 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class CursyBlinking : MonoBehaviour
 {
 
-
-    SpriteRenderer sprite;
-    Color actualColor;
-    public Color blinkColor;
     public float blinkRate =.5f;
+    public Light2D light;
+    
     
 
     private void Start()
     {
-        sprite = GetComponent<SpriteRenderer>();
-        actualColor = sprite.color;
         
         InvokeRepeating("Blink", 0, blinkRate);
     }
 
+    
+
     void Blink()
     {
-        if(sprite.color == actualColor)
+        if(light.intensity == 1)
         {
-            sprite.color = blinkColor;
+            light.intensity = 0.5f;
         }
         else
         {
-            sprite.color = actualColor;
+            light.intensity = 1;
         }
     }
 }

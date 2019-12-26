@@ -7,16 +7,20 @@ public class EnemyMovement : MonoBehaviour
     public float speed;
 
     public LayerMask groundLayer;
+    public LayerMask obstacleLayer;
     public float direction = 1;
 
     public Transform groundCheck;
+    public Transform obstacleCheck;
 
     void FixedUpdate()
     {
         transform.Translate(Vector2.right * direction * speed * Time.deltaTime);
 
-        RaycastHit2D hitGround = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
-        if (!hitGround)
+        Collider2D hitGround = Physics2D.OverlapCircle(groundCheck.position, .25f, groundLayer);
+        Collider2D hitObstacle = Physics2D.OverlapCircle(obstacleCheck.position, .25f, obstacleLayer);
+        //RaycastHit2D hitGround = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
+        if (hitGround == null || hitObstacle != null)
         {
             direction *= -1;
             FlipSpriteDirection();

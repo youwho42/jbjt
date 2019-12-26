@@ -40,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Sky
+    uniqueID: 3065045577
+    locked: 0
+  - name: Moon
+    uniqueID: 2006751007
+    locked: 0
+  - name: Clouds
+    uniqueID: 3437231091
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -51,4 +60,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2012337211
+    locked: 0
+  - name: Foreground
+    uniqueID: 2616270479
     locked: 0

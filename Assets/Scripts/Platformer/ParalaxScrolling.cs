@@ -8,6 +8,8 @@ public class ParalaxScrolling : MonoBehaviour
     float length, startpos;
     public GameObject cam;
     public float paralaxAmount;
+    public int imageQuantity;
+    public bool needsRepeating;
 
     private void Start()
     {
@@ -23,13 +25,15 @@ public class ParalaxScrolling : MonoBehaviour
         //transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
         transform.position = Vector2.Lerp(transform.position, new Vector3(startpos + dist, transform.position.y, transform.position.z), 1);
 
-        if (temp > startpos + length)
-        {
-            startpos += length * 2;
-        }
-        else if (temp < startpos - length)
-        {
-            startpos -= length * 2;
+        if (needsRepeating) { 
+            if (temp > startpos + length)
+            {
+                startpos += length * imageQuantity;
+            }
+            else if (temp < startpos - length)
+            {
+                startpos -= length * imageQuantity;
+            }
         }
     }
 }
