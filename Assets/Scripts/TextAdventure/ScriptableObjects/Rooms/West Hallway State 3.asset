@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
-  m_Name: West Hallway State 1
+  m_Name: West Hallway State 3
   m_EditorClassIdentifier: 
-  description: The janitor's <b>closet</b> is unlocked. Worked better than a paperclip,
-    didn't it?
+  description: Wow, you managed to open all the doors around here. I hope there aren't
+    any more...
   roomName: west hallway
   exits:
   - keyString: south
@@ -25,6 +25,9 @@ MonoBehaviour:
   - keyString: west
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: faefdd2dad97c467d9281212813a85cb, type: 2}
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: d64b00a3895464614b39020826012db7, type: 2}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: b760b808fd36342fbb65c5a05594890b, type: 2}
   - {fileID: 11400000, guid: e1c7ed3b468ac4a10935b1ddee2369f8, type: 2}

@@ -13,5 +13,6 @@ public class Room : ScriptableObject
     public Exit[] exits;
     public InteractableObject[] interactableObjectsInRoom;
 
+    public Sprite roomImage;
    
 }

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredString: west hallway
   oneUse: 0
-  roomToChangeTo: {fileID: 11400000, guid: 03e2a4f6e8c2f4b67b25d249d3ee9187, type: 2}
+  roomToChangeTo: {fileID: 11400000, guid: 0059278b4ffcf4693916cb989e330023, type: 2}

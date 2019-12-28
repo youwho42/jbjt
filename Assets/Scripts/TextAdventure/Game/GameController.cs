@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameController : MonoBehaviour
     public TMP_Text inventoryDisplayText;
     public TMP_Text locationDisplayText;
     public TMP_InputField inputField;
+    public Image areaImage;
     public Color inputFieldCaretColor;
     public InputAction[] inputActions;
     
@@ -73,6 +75,8 @@ public class GameController : MonoBehaviour
     public void DisplayLocation()
     {
         locationDisplayText.text = "Location: " + roomNavigation.currentRoom.roomName;
+        areaImage.sprite = roomNavigation.currentRoom.roomImage;
+        areaImage.color = inputFieldCaretColor;
         if(roomNavigation.currentRoom == roomNavigation.finalRoom)
         {
             StartCoroutine(EndMiniGame());
@@ -148,7 +152,7 @@ public class GameController : MonoBehaviour
     IEnumerator EndMiniGame()
     {
        
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         LevelManager.instance.ChangeLevel("Level 3");
     }
 }

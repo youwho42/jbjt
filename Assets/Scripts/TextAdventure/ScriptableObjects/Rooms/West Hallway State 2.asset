@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
   m_Name: West Hallway State 2
   m_EditorClassIdentifier: 
-  description: Wow, you managed to open all the doors around here. I hope there aren't
-    any more...
+  description: Back in the west <b>hallway</b>. Just one more door to open and you
+    can get out of here!
   roomName: west hallway
   exits:
   - keyString: south
@@ -25,9 +25,7 @@ MonoBehaviour:
   - keyString: west
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: faefdd2dad97c467d9281212813a85cb, type: 2}
-  - keyString: east
-    exitDescription: 
-    valueRoom: {fileID: 11400000, guid: d64b00a3895464614b39020826012db7, type: 2}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: b760b808fd36342fbb65c5a05594890b, type: 2}
   - {fileID: 11400000, guid: e1c7ed3b468ac4a10935b1ddee2369f8, type: 2}
+  roomImage: {fileID: 21300000, guid: dd64c6b154e9e48fb9dd00e7f254d70b, type: 3}

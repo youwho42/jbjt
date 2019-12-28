@@ -27,3 +27,4 @@ MonoBehaviour:
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: d6bfc88cbff634fc1a5ded97015c7b4f, type: 2}
   - {fileID: 11400000, guid: e1c7ed3b468ac4a10935b1ddee2369f8, type: 2}
+  roomImage: {fileID: 21300000, guid: dd64c6b154e9e48fb9dd00e7f254d70b, type: 3}

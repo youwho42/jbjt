@@ -17,15 +17,12 @@ MonoBehaviour:
     <b>north</b> is now unlocked.
   roomName: entrance hall
   exits:
-  - keyString: west
-    exitDescription: 
-    valueRoom: {fileID: 11400000, guid: 03e2a4f6e8c2f4b67b25d249d3ee9187, type: 2}
-  - keyString: east
-    exitDescription: 
-    valueRoom: {fileID: 11400000, guid: 0115b3480c5fd4a549e8dca8e9bc09ae, type: 2}
   - keyString: north
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: a487b8a8db9cd4d3c9fca0f48828e21a, type: 2}
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 0115b3480c5fd4a549e8dca8e9bc09ae, type: 2}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: dade2b62d159e413384da095d3e2ad01, type: 2}
   - {fileID: 11400000, guid: 9ad2c67bb271a49fcae5246b1976ecd1, type: 2}
@@ -33,3 +30,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f097f4430c9946a8b1954f929d25d7f, type: 2}
   - {fileID: 11400000, guid: a91b47a57be884526b85a7b67f1b37f6, type: 2}
   - {fileID: 11400000, guid: 79f166fdae9e5416c8646c4b3ae70939, type: 2}
+  roomImage: {fileID: 21300000, guid: 1f4c81eaa17e24f39bd59f2278577267, type: 3}

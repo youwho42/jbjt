@@ -12,18 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62d00168c1984513a929bffec48b7b9, type: 3}
   m_Name: EntranceHall State 0
   m_EditorClassIdentifier: 
-  description: "You are in John Denver Memorial High School\u2019s entrance <b>hall</b>.\n
-    \nThe walls are lined with <b>lockers</b> and <b>posters</b> reminding the students
-    to get tickets for the Halloween Monster Bash before it\u2019s too late. A giant
-    <b>pumpkin</b> is sitting in the corner, below some fake <b>cobwebs</b>.\n \nA
-    coyote can be heard howling outside, somewhere behind the padlocked exit\n \nThere
-    are doors to the <b>east</b>, <b>west</b> and <b>north</b>.\n \nThe exit is to
-    the <b>south</b>."
+  description: "You are in John Denver Memorial High School\u2019s entrance <b>hall</b>.
+    The door you just came through locks behind you. Looks like there's no backtracking
+    in this world.\n \nThe walls are lined with <b>lockers</b> and <b>posters</b>
+    reminding the students to get tickets for the Halloween Monster Bash before it\u2019s
+    too late. A giant <b>pumpkin</b> is sitting in the corner, below some fake <b>cobwebs</b>.\n
+    \nA coyote can be heard howling outside, somewhere behind the padlocked exit\n
+    \nThere are doors to the <b>east</b>, <b>west</b> and <b>north</b>.\n \nThe exit
+    is to the <b>south</b>."
   roomName: entrance hall
   exits:
-  - keyString: west
-    exitDescription: 
-    valueRoom: {fileID: 11400000, guid: 03e2a4f6e8c2f4b67b25d249d3ee9187, type: 2}
   - keyString: east
     exitDescription: 
     valueRoom: {fileID: 11400000, guid: 21c5d4179a8d242798084e957dd1df1d, type: 2}
@@ -34,3 +32,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f097f4430c9946a8b1954f929d25d7f, type: 2}
   - {fileID: 11400000, guid: a91b47a57be884526b85a7b67f1b37f6, type: 2}
   - {fileID: 11400000, guid: 79f166fdae9e5416c8646c4b3ae70939, type: 2}
+  roomImage: {fileID: 21300000, guid: 1f4c81eaa17e24f39bd59f2278577267, type: 3}

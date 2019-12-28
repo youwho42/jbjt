@@ -23,3 +23,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 962618cac8f524ba281762b7d6f368d0, type: 2}
   - {fileID: 11400000, guid: 7a5a7adb1d9fb445e89b2e4da8509e93, type: 2}
   - {fileID: 11400000, guid: 20f493cf1d45f4fe691575236c90239a, type: 2}
+  roomImage: {fileID: 21300000, guid: c177c8f1c6f8f4d4ea43e10d0bbf051e, type: 3}
