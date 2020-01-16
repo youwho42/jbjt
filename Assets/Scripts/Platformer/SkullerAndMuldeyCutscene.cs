@@ -12,6 +12,7 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
     public PlayerInput player;
 
 
+
     public TextMeshProUGUI skullerText;
     public TextMeshProUGUI muldeyText;
 
@@ -20,7 +21,6 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
 
     private void Start()
     {
-        
         director.Pause();
         cutSceneHasPlayed = false;
     }
@@ -52,11 +52,14 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
     {
         if(director.state != PlayState.Playing)
         {
-         
+            
             player.enabled = true;
+                
+           
         }
         else
         {
+            
             player.enabled = false;
         }
     }

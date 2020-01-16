@@ -70,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    
     void DashReset()
     {
         dashing = false;
@@ -90,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
         }
         // Actually move the player
         body.velocity = new Vector2(input.dir * currentSpeed * Time.fixedDeltaTime, body.velocity.y);
+       
     }
 
     // Check if the player is on the ground
