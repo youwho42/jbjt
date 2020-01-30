@@ -5,6 +5,7 @@ using UnityEngine.Playables;
 using TMPro;
 using System;
 
+
 public class SkullerAndMuldeyCutscene : MonoBehaviour
 {
     public PlayableDirector director;
@@ -15,18 +16,25 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
 
     public TextMeshProUGUI skullerText;
     public TextMeshProUGUI muldeyText;
+    public GameObject panel;
 
     bool cutSceneHasPlayed;
 
 
     private void Start()
     {
+        skullerText.gameObject.SetActive(false);
+        muldeyText.gameObject.SetActive(false);
+        panel.SetActive(false);
         director.Pause();
         cutSceneHasPlayed = false;
     }
 
     IEnumerator DialogueOne()
     {
+        skullerText.gameObject.SetActive(true);
+        muldeyText.gameObject.SetActive(true);
+        panel.SetActive(true);
         skullerText.text = "";
         muldeyText.text = "";
         yield return new WaitForSeconds(3f);
@@ -61,6 +69,10 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
         {
             
             player.enabled = false;
+        }
+        if (cutSceneHasPlayed)
+        {
+            CountdownTimer.instance.countdownStarted = true;
         }
     }
 

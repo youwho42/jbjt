@@ -58,6 +58,9 @@ TagManager:
   - name: Graffitii
     uniqueID: 3368262595
     locked: 0
+  - name: Enemy
+    uniqueID: 1528289353
+    locked: 0
   - name: Player
     uniqueID: 2012337211
     locked: 0

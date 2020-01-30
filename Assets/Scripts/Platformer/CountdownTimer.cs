@@ -6,13 +6,26 @@ using UnityEngine.Playables;
 
 public class CountdownTimer : MonoBehaviour
 {
-    
+
+    public static CountdownTimer instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
     public TextMeshProUGUI countdownTimerText;
-    
+
 
     public float maxTime;
     float currentTime;
-    bool countdownStarted;
+    public bool countdownStarted;
 
     private void Start()
     {
