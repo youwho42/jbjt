@@ -67,3 +67,9 @@ TagManager:
   - name: Foreground
     uniqueID: 2616270479
     locked: 0
+  - name: Water
+    uniqueID: 238841655
+    locked: 0
+  - name: SewerCieling
+    uniqueID: 3551620095
+    locked: 0

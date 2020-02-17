@@ -37,6 +37,8 @@ public class RespawnPlayer : MonoBehaviour
         player.position = respawnPoint.position;
         isRespawning = false;
         player.gameObject.SetActive(true);
+        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<PlayerHealth>().tookDamage = false;
         
     }
 }
