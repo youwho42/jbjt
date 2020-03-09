@@ -26,6 +26,7 @@ public class CountdownTimer : MonoBehaviour
     public float maxTime;
     float currentTime;
     public bool countdownStarted;
+    public bool countdownPaused;
 
     private void Start()
     {
@@ -34,14 +35,29 @@ public class CountdownTimer : MonoBehaviour
         countdownTimerText.text = Mathf.RoundToInt(currentTime).ToString();
     }
 
+    public void PauseCountdown(float pauseTime)
+    {
+        StartCoroutine(PauseCountdownCo(pauseTime));
+    }
+
+    IEnumerator PauseCountdownCo(float pauseTime)
+    {
+        countdownPaused = true;
+        yield return new WaitForSeconds(pauseTime);
+        countdownPaused = false;
+    }
     
     private void Update()
     {
+        
         if (countdownStarted)
         {
+            if (!countdownPaused)
+            {
+                currentTime -= Time.deltaTime;
+                countdownTimerText.text = Mathf.RoundToInt(currentTime).ToString();
+            }
             
-            currentTime -= Time.deltaTime;
-            countdownTimerText.text = Mathf.RoundToInt(currentTime).ToString();
 
             if (currentTime <= 0)
             {

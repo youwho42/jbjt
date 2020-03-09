@@ -29,6 +29,7 @@ public class BlackOutScreen : MonoBehaviour
     public void BlackOut()
     {
         StartCoroutine(BlackOutCo());
+        CountdownTimer.instance.PauseCountdown(timeToBlackOut);
     }
 
     IEnumerator BlackOutCo()

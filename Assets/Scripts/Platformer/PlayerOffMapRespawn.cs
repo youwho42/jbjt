@@ -11,6 +11,7 @@ public class PlayerOffMapRespawn : MonoBehaviour
         {
             RespawnPlayer.instance.isRespawning = true;
             RespawnPlayer.instance.StartRespawn();
+            AudioManager.instance.PlaySound("RespawnHurt");
         }
     }
 

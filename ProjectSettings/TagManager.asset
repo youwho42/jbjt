@@ -20,7 +20,7 @@ TagManager:
   - Enemy
   - Ground
   - CameraConfiner
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Stars
+    uniqueID: 1834369613
+    locked: 0
   - name: Sky
     uniqueID: 3065045577
     locked: 0
@@ -57,6 +60,12 @@ TagManager:
     locked: 0
   - name: Graffitii
     uniqueID: 3368262595
+    locked: 0
+  - name: LampPosts
+    uniqueID: 1934010209
+    locked: 0
+  - name: PickUps
+    uniqueID: 968080733
     locked: 0
   - name: Enemy
     uniqueID: 1528289353

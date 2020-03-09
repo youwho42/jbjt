@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public bool facingLeft;
     [HideInInspector]
     public bool dashing;
+    bool footStepsPlaying;
 
     private void Start()
     {
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         if (input.jump && IsGrounded())
         {
             body.AddForce(Vector2.up * jumpForce);
+            AudioManager.instance.PlaySound("Jump");
         }
 
         if (body.velocity.y < 0)
@@ -52,7 +54,20 @@ public class PlayerMovement : MonoBehaviour
         {
             dashing = true;
         }
-        
+        if (IsGrounded() && Mathf.Abs(body.velocity.x) >= 0.1f)
+        {
+            if (!footStepsPlaying)
+            {
+                footStepsPlaying = true;
+                AudioManager.instance.PlaySound("Walk");
+            }
+            
+        } else
+        {
+            AudioManager.instance.StopSound("Walk");
+            footStepsPlaying = false;
+        }
+
 
         // Change speed if in the air
         currentSpeed = IsGrounded() ? speed : speed * airSpeedMultiplier;

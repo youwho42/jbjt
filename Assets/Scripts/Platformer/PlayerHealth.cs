@@ -26,14 +26,7 @@ public class PlayerHealth : MonoBehaviour, IDamagable<int>
         {
             tookDamage = true;
             currentHealth -= damageTaken;
-            //if (currentHealth <= 0)
-            //{
-            //    Kill();
-            //} else
-            //{
-            //    KnockBackCharacter();
-            //    StartCoroutine(BecomeUndamagable());
-            //}
+            AudioManager.instance.PlaySound("Hurt");
             
             StartCoroutine(BecomeUndamagable());
             StartCoroutine(KnockBackCharacter());
