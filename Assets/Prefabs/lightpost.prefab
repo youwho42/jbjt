@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981524557842843707}
   - component: {fileID: 981524557842843700}
+  - component: {fileID: 5230203985535479309}
   m_Layer: 0
   m_Name: lightpost
   m_TagString: Untagged
@@ -81,6 +82,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5230203985535479309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981524557842843706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58e02cca369e4665bc1744ef1664468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightToFlicker: {fileID: 981524558778970078}
+  chanceToFlicker: 0.333
+  flickerRate: 0.05
+  minMaxTimeBetweenFlickers: {x: 3, y: 30}
 --- !u!1 &981524558778970077
 GameObject:
   m_ObjectHideFlags: 0
