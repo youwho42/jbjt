@@ -14,6 +14,7 @@ public class PickUpItem : MonoBehaviour
     private SpriteRenderer renderer;
 
     public GameObject pickUpFX;
+    public GameObject shineFX;
 
     private void Start()
     {
@@ -33,6 +34,7 @@ public class PickUpItem : MonoBehaviour
                     hasCoin = false;
                     GameManager.instance.AddCoin();
                     pickUpFX.SetActive(true);
+                    SetShineToOff();
                     Debug.Log("You got a coin!");
                 }
                 else
@@ -56,6 +58,7 @@ public class PickUpItem : MonoBehaviour
                     hasCoin = false;
                     GameManager.instance.AddCoin();
                     pickUpFX.SetActive(true);
+                    
                     Debug.Log("You got a coin!");
                 }
                 else
@@ -74,9 +77,21 @@ public class PickUpItem : MonoBehaviour
 
     private void ImageSwitchOnPickUp()
     {
+        
         renderer.sprite = imageAfterPickUp;
+        SetShineToOff();
+
+
+
     }
 
+    void SetShineToOff()
+    {
+        if (shineFX != null)
+        {
+            shineFX.SetActive(false);
+        }
+    }
     
 
     private void OnTriggerExit2D(Collider2D collision)

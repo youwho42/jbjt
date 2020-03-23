@@ -27,12 +27,14 @@ public class CountdownTimer : MonoBehaviour
     float currentTime;
     public bool countdownStarted;
     public bool countdownPaused;
+    public TextMeshProUGUI startText;
 
     private void Start()
     {
         currentTime = maxTime;
         countdownStarted = false;
         countdownTimerText.text = Mathf.RoundToInt(currentTime).ToString();
+        startText.enabled = false;
     }
 
     public void PauseCountdown(float pauseTime)
@@ -45,6 +47,28 @@ public class CountdownTimer : MonoBehaviour
         countdownPaused = true;
         yield return new WaitForSeconds(pauseTime);
         countdownPaused = false;
+    }
+
+    IEnumerator StartCountdownCo()
+    {
+        startText.enabled = true;
+        startText.text = "3";
+        yield return new WaitForSeconds(1);
+        startText.text = "2";
+        yield return new WaitForSeconds(1);
+        startText.text = "1";
+        yield return new WaitForSeconds(1);
+        startText.text = "0";
+        yield return new WaitForSeconds(1);
+        startText.text = "GO!";
+        countdownStarted = true;
+        yield return new WaitForSeconds(1);
+        startText.enabled = false;
+    }
+
+    public void StartCountdown()
+    {
+        StartCoroutine(StartCountdownCo());
     }
     
     private void Update()
@@ -61,7 +85,7 @@ public class CountdownTimer : MonoBehaviour
 
             if (currentTime <= 0)
             {
-                RespawnPlayer.instance.StartRespawn();
+                RespawnPlayer.instance.StartRespawn(true);
                 currentTime = maxTime;
                 countdownStarted = false;
             }

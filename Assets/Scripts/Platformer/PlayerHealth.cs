@@ -28,10 +28,16 @@ public class PlayerHealth : MonoBehaviour, IDamagable<int>
             currentHealth -= damageTaken;
             AudioManager.instance.PlaySound("Hurt");
             
-            StartCoroutine(BecomeUndamagable());
+            StartCoroutine(BecomeUndamagableCo());
             StartCoroutine(KnockBackCharacter());
         }
 
+    }
+
+    public void BecomeUndamagable()
+    {
+        tookDamage = true;
+        StartCoroutine(BecomeUndamagableCo());
     }
 
     void ResetPlayerHealth()
@@ -42,7 +48,7 @@ public class PlayerHealth : MonoBehaviour, IDamagable<int>
 
     public void Kill()
     {
-        RespawnPlayer.instance.StartRespawn();
+        RespawnPlayer.instance.StartRespawn(false);
         tookDamage = false;
         ResetPlayerHealth();
     }
@@ -60,7 +66,7 @@ public class PlayerHealth : MonoBehaviour, IDamagable<int>
         yield return null;
     }
 
-    IEnumerator BecomeUndamagable()
+    IEnumerator BecomeUndamagableCo()
     {
         
         yield return new WaitForSeconds(2f);

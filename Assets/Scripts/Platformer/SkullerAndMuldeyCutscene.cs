@@ -18,7 +18,10 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
     public TextMeshProUGUI muldeyText;
     public GameObject panel;
 
+    public GameObject startWall;
+
     bool cutSceneHasPlayed;
+    bool timerStarted;
 
 
     private void Start()
@@ -37,23 +40,26 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
         panel.SetActive(true);
         skullerText.text = "";
         muldeyText.text = "";
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         muldeyText.text = "Look over there Skuller.";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         muldeyText.text = "";
         skullerText.text = "So I see Muldey, it seems a computer cursor has come alive...";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(6f);
         skullerText.text = "You better get going little guy, the bus is about to leave!";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(6f);
         skullerText.text = "";
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(10f);
         muldeyText.text = "I'd give you a dollar, but Skuller here hasn't paid me back for the donuts the other day.";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(6f);
         skullerText.text = "Maybe you can find a few coins as you... how do cursors move? run? over to catch it.";
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
         skullerText.text = "";
         muldeyText.text = "";
         cutSceneHasPlayed = true;
+        panel.SetActive(false);
+        skullerText.gameObject.SetActive(false);
+        muldeyText.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -69,10 +75,17 @@ public class SkullerAndMuldeyCutscene : MonoBehaviour
         {
             
             player.enabled = false;
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                director.Stop();
+                cutSceneHasPlayed = true;
+            }
         }
-        if (cutSceneHasPlayed)
+        if (cutSceneHasPlayed && !timerStarted)
         {
-            CountdownTimer.instance.countdownStarted = true;
+            timerStarted = true;
+            CountdownTimer.instance.StartCountdown();
+            startWall.SetActive(false);
         }
     }
 

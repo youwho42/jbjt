@@ -10,7 +10,7 @@ public class PlayerOffMapRespawn : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !RespawnPlayer.instance.isRespawning)
         {
             RespawnPlayer.instance.isRespawning = true;
-            RespawnPlayer.instance.StartRespawn();
+            RespawnPlayer.instance.StartRespawn(false);
             AudioManager.instance.PlaySound("RespawnHurt");
         }
     }
